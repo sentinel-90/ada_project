@@ -1,0 +1,105 @@
+html
+{
+    height: 100%;
+}
+body
+{
+    height: 100%;
+    padding-top: 50px;
+}
+
+h1
+{
+    margin-bottom: 20px;
+    padding-bottom: 9px;
+
+    border-bottom: 1px solid #eee;
+}
+
+.sidebar
+{
+    position: fixed;
+    z-index: 1000;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    padding: 20px;
+    padding-right: 0;
+    padding-left: 0;
+
+    border-right: 1px solid #eee;
+    h3
+    {
+        padding: 0 .5em;
+    }
+    .nav
+    {
+        margin-bottom: 20px;
+    }
+    .nav-item
+    {
+        width: 100%;
+        & + .nav-item
+        {
+            margin-left: 0;
+        }
+    }
+    .nav-link
+    {
+        border-radius: 0;
+    }
+    .btn
+    {
+        margin: .5em 1em;
+    }
+}
+
+.list-type
+{
+    button
+    {
+        margin-right: 10px;
+    }
+}
+
+.task-block
+{
+    margin-top: 20px;
+    .fa
+    {
+        margin-right: 15px;
+    }
+}
+
+.task-content
+{
+    h2
+    {
+        overflow: hidden;
+    }
+    .medium-editor-element
+    {
+        padding: 10px;
+
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        p
+        {
+            margin: 0;
+        }
+        &[data-medium-focused='true']
+        {
+            border-color: rgba(0, 0, 0, .125);
+            outline: none;
+            background: #fff;
+        }
+        &:hover
+        {
+            border-color: rgba(0, 0, 0, .125);
+        }
+    }
+}

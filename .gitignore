@@ -13,4 +13,6 @@
 !var/sessions/.gitkeep
 !var/SymfonyRequirements.php
 /vendor/
-/web
+
+Будет удалено .idea/inspectionProfiles/
+Будет удалено .idea/workspace.xml
