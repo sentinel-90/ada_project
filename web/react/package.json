@@ -32,6 +32,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "watcher": "webpack -w"
   }
 }

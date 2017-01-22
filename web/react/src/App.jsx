@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Team from './components/Team';
 import TaskDetail from './components/TaskDetail';
 import TaskList from './components/TaskList';
+import TaskFilter from './components/TaskFilter';
 
 import '../node_modules/bootstrap/scss/bootstrap.scss';
 import './screen.scss';
@@ -38,11 +39,7 @@ function App(props) {
 
             <h1>Dashboard</h1>
 
-            <nav className="navbar navbar-toggleable-md navbar-light bg-faded list-type">
-              <button className="btn btn-secondary active" type="button">Tasks for today</button>
-              <button className="btn btn-secondary" type="button">Sprint</button>
-              <button className="btn btn-secondary" type="button">All tasks</button>
-            </nav>
+            <TaskFilter />
 
             <div className="task-block">
               <div className="row">
